@@ -1,0 +1,22 @@
+---
+##create user
+user_name: test2
+user_password: Test2!
+#user_groups: test1
+
+##change hostname
+host_name: test-web02
+
+##Apache
+serveradmin: test2@example.com
+domain_name: onya-lab.site
+
+##MySQL
+root_password: Testtest991!
+db_user_name: test_user
+db_user_password: Kenshirou913!
+db_name: test_db
+
+##WordPress URL
+wordpress_url: https://ja.wordpress.org/latest-ja.tar.gz
+db_host: localhost
