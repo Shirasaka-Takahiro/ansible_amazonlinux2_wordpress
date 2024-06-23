@@ -1,8 +1,8 @@
-<VirtualHost *:80>
+<VirtualHost *:8080>
   ServerAdmin {{ serveradmin }}
   ServerName {{ domain_name }}
-  DocumentRoot /var/www/vhosts/{{ domain_name }}/public_html
-  <Directory /var/www/vhosts/{{ domain_name }}/public_html>
+  DocumentRoot /var/www/vhosts/{{ domain_name }}/public_html_2
+  <Directory /var/www/vhosts/{{ domain_name }}/public_html_2>
     Options FollowSymLinks
     AllowOverride All
   </Directory>

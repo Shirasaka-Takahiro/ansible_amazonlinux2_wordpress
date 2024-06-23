@@ -4,6 +4,11 @@
     key: https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
     state: present
 
+- name: install RPM-GPG-KEY-mysql
+  rpm_key:
+    key: https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
+    state: present
+
 - name: install repository for mysql
   yum:
     name: https://repo.mysql.com/mysql80-community-release-el7-9.noarch.rpm

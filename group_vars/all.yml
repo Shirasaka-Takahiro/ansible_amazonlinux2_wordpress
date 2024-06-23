@@ -5,11 +5,11 @@ user_password: Test2!
 #user_groups: test1
 
 ##change hostname
-host_name: test-web02
+host_name: test-web01
 
 ##Apache
 serveradmin: test2@example.com
-domain_name: onya-lab.site
+domain_name: quick-infra.net
 
 ##MySQL
 root_password: Testtest991!
